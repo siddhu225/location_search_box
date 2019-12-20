@@ -1,4 +1,13 @@
 # location_search_box
+```
+Implemented a search box using google maps Api and after selecting a location will automatically Pin that location.(The best part is you can enter multiple locations at a time and It  will Pin multiple locations at same time)
+```
+## Technologes used
+
+```
+1). Vue js
+2). Google Maps Javascript Api
+```
 
 ## Project setup
 ```
