@@ -1,12 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <google-map />
   </div>
 </template>
+
+<script>
+import GoogleMap from "./components/GoogleMap";
+
+export default {
+  name: "App",
+  components: {
+    GoogleMap
+  }
+};
+</script>
 
 <style>
 #app {
